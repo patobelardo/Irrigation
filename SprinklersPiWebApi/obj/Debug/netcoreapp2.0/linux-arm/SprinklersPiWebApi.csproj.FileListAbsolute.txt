@@ -1,0 +1,13 @@
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\libhostpolicy.so
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\libhostfxr.so
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.deps.json
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.runtimeconfig.json
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.runtimeconfig.dev.json
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.dll
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.pdb
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.csproj.CoreCompileInputs.cache
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.AssemblyInfoInputs.cache
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.AssemblyInfo.cs
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.dll
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\linux-arm\SprinklersPiWebApi.pdb

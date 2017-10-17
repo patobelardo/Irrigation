@@ -1,0 +1,10 @@
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\SprinklersPiWebApi.deps.json
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\SprinklersPiWebApi.runtimeconfig.json
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\SprinklersPiWebApi.runtimeconfig.dev.json
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\SprinklersPiWebApi.dll
+C:\dev\Irrigation\SprinklersPiWebApi\bin\Debug\netcoreapp2.0\SprinklersPiWebApi.pdb
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\SprinklersPiWebApi.csproj.CoreCompileInputs.cache
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\SprinklersPiWebApi.AssemblyInfoInputs.cache
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\SprinklersPiWebApi.AssemblyInfo.cs
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\SprinklersPiWebApi.dll
+C:\dev\Irrigation\SprinklersPiWebApi\obj\Debug\netcoreapp2.0\SprinklersPiWebApi.pdb

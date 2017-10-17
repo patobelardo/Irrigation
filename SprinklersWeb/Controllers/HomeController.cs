@@ -13,7 +13,7 @@ namespace SprinklersWeb.Controllers
 {
     public class HomeController : Controller
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://irrigation.servicebus.windows.net/;SharedAccessKeyName=WebIrrigation;SharedAccessKey=+o4cT7cum4mQ2hO380PFThCRSDhIrSlcu+mOC9rq7GA=;";
+        const string ServiceBusConnectionString = "Endpoint=sb://irrigation.servicebus.windows.net/;SharedAccessKeyName=WebPage;SharedAccessKey=Nn/iZOzpummawkGqdO12sCw+4laYFwQmRf/4tCxlPGc=;";
         const string QueueName = "sprinklers";
 
         public async Task<IActionResult> Index()
