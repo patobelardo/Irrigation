@@ -1,0 +1,10 @@
+C:\dev\Irrigation\SprinklersWeb\bin\Debug\netcoreapp2.0\SprinklersWeb.deps.json
+C:\dev\Irrigation\SprinklersWeb\bin\Debug\netcoreapp2.0\SprinklersWeb.runtimeconfig.json
+C:\dev\Irrigation\SprinklersWeb\bin\Debug\netcoreapp2.0\SprinklersWeb.runtimeconfig.dev.json
+C:\dev\Irrigation\SprinklersWeb\bin\Debug\netcoreapp2.0\SprinklersWeb.dll
+C:\dev\Irrigation\SprinklersWeb\bin\Debug\netcoreapp2.0\SprinklersWeb.pdb
+C:\dev\Irrigation\SprinklersWeb\obj\Debug\netcoreapp2.0\SprinklersWeb.csproj.CoreCompileInputs.cache
+C:\dev\Irrigation\SprinklersWeb\obj\Debug\netcoreapp2.0\SprinklersWeb.AssemblyInfoInputs.cache
+C:\dev\Irrigation\SprinklersWeb\obj\Debug\netcoreapp2.0\SprinklersWeb.AssemblyInfo.cs
+C:\dev\Irrigation\SprinklersWeb\obj\Debug\netcoreapp2.0\SprinklersWeb.dll
+C:\dev\Irrigation\SprinklersWeb\obj\Debug\netcoreapp2.0\SprinklersWeb.pdb
