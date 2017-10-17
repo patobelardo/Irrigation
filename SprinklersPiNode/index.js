@@ -40,13 +40,19 @@ function checkForMessages(sbService, queueName, callback) {
     } else {
     //   console.log('Rx: ', lockedMsg);
       console.log(lockedMsg.body);
+        var bodyArr = lockedMsg.body.split(';');
+
+        var action = 1;
+        if (bodyArr[2] == 'on')
+            action = 0;
+
       var options = {
-        host: "192.168.1.111",
+        host: "localhost",
         port: 80,
-        path: '/api/pins?pinId=3&status=0',
+        path: '/api/pins?pinId=' + bodyArr[1] + '&status=' + action,
         method: 'POST'
       };
-      
+
       http.request(options, function(res) {
         console.log('STATUS: ' + res.statusCode);
         console.log('HEADERS: ' + JSON.stringify(res.headers));
