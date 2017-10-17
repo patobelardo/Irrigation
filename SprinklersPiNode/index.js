@@ -3,7 +3,7 @@ var querystring = require('querystring');
 var http = require('http');
 
 
-var connStr = "Endpoint=sb://irrigation.servicebus.windows.net/;SharedAccessKeyName=Regadores;SharedAccessKey=Pqayzkh5SsL4EUY+YIt6ekN81HS4h7VImIxXmWrzqAY=;";
+var connStr = "Endpoint=sb://irrigation.servicebus.windows.net/;SharedAccessKeyName=Receiver;SharedAccessKey=u1OjZDZUrCNi+6Kb3Ui0emX0cvQGLY6S+wfLiKfdsgE=;";
 if (!connStr) throw new Error('Must provide connection string');
 var queueName = 'sprinklers';
 
