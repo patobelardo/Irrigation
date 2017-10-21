@@ -1,39 +1,43 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-
+<ul>
+    <li>Timeout: <input type="text" id="timeout" value="30"/></li>
+    
+ </ul>
+ <input type="hidden" name="pinNr" value="0"/>
+ <input type="hidden" name="sprinklerAction" value="on"/>
 <div class="row">
     <div class="col-md-3">
         <h2>Sprinkler 1</h2>
         <ul>
             <li>Current Status: -</li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="3" asp-route-sprinklerAction="on">Turn On</a></li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="3" asp-route-sprinklerAction="off">Turn Off</a></li>
+            <li><input type="button" value="Turn On" onclick="location.href='@Url.Action("Change", "Home")?pinNr=3&sprinklerAction=on&timeout=' + $('#timeout').val()" /></li>
+            <li><input type="button" value="Turn Off" onclick="location.href='@Url.Action("Change", "Home")?pinNr=3&sprinklerAction=off&timeout=' + $('#timeout').val()" /></li>
         </ul>
     </div>
     <div class="col-md-3">
         <h2>Sprinkler 2</h2>
         <ul>
             <li>Current Status: -</li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="4" asp-route-sprinklerAction="on">Turn On</a></li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="4" asp-route-sprinklerAction="off">Turn Off</a></li>
+            <li><input type="button" value="Turn On" onclick="location.href='@Url.Action("Change", "Home")?pinNr=4&sprinklerAction=on&timeout=' + $('#timeout').val()" /></li>
+            <li><input type="button" value="Turn Off" onclick="location.href='@Url.Action("Change", "Home")?pinNr=4&sprinklerAction=off&timeout=' + $('#timeout').val()" /></li>
         </ul>
     </div>
     <div class="col-md-3">
         <h2>Sprinkler 3</h2>
         <ul>
             <li>Current Status: -</li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="17" asp-route-sprinklerAction="on">Turn On</a></li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="17" asp-route-sprinklerAction="off">Turn Off</a></li>
+            <li><input type="button" value="Turn On" onclick="location.href='@Url.Action("Change", "Home")?pinNr=17&sprinklerAction=on&timeout=' + $('#timeout').val()" /></li>
+            <li><input type="button" value="Turn Off" onclick="location.href='@Url.Action("Change", "Home")?pinNr=17&sprinklerAction=off&timeout=' + $('#timeout').val()" /></li>
         </ul>
     </div>
     <div class="col-md-3">
         <h2>Sprinkler 4</h2>
         <ul>
             <li>Current Status: -</li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="18" asp-route-sprinklerAction="on">Turn On</a></li>
-            <li><a asp-area="" asp-controller="Home" asp-action="Change" asp-route-pinNr="18" asp-route-sprinklerAction="off">Turn Off</a></li>
+            <li><input type="button" value="Turn On" onclick="location.href='@Url.Action("Change", "Home")?pinNr=18&sprinklerAction=on&timeout=' + $('#timeout').val()" /></li>
+            <li><input type="button" value="Turn Off" onclick="location.href='@Url.Action("Change", "Home")?pinNr=18&sprinklerAction=off&timeout=' + $('#timeout').val()" /></li>
         </ul>
     </div>
 </div>

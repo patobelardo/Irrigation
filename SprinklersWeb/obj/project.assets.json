@@ -12866,11 +12866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\Irrigation\\SprinklersWeb\\SprinklersWeb.csproj",
+      "projectUniqueName": "c:\\dev\\Irrigation\\SprinklersWeb\\SprinklersWeb.csproj",
       "projectName": "SprinklersWeb",
-      "projectPath": "C:\\dev\\Irrigation\\SprinklersWeb\\SprinklersWeb.csproj",
+      "projectPath": "c:\\dev\\Irrigation\\SprinklersWeb\\SprinklersWeb.csproj",
       "packagesPath": "C:\\Users\\pbelardo\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\Irrigation\\SprinklersWeb\\obj\\",
+      "outputPath": "c:\\dev\\Irrigation\\SprinklersWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

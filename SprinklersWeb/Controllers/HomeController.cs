@@ -21,10 +21,11 @@ namespace SprinklersWeb.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Change(int pinNr, string sprinklerAction)
+        public async Task<IActionResult> Change(int pinNr, string sprinklerAction, int timeoutSec)
         {
+            var timeout = timeoutSec * 1000;
             var queueClient = new QueueClient(ServiceBusConnectionString, QueueName);
-            string messageBody = $"Sprinkler;{pinNr};{sprinklerAction}";
+            string messageBody = $"Sprinkler;{pinNr};{sprinklerAction};{timeout}";
             var message = new Message(Encoding.UTF8.GetBytes(messageBody));
 
             // Write the body of the message to the console

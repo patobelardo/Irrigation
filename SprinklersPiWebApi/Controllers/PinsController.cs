@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Bifrost.Devices.Gpio.Core;
 using Bifrost.Devices.Gpio.Abstractions;
 using Bifrost.Devices.Gpio;
+using System.Threading.Tasks;
 
 namespace GpioSwitcherWebApi.Controllers
 {
@@ -42,22 +43,29 @@ namespace GpioSwitcherWebApi.Controllers
 
         // POST api/pins
         [HttpPost]
-        public void SwitchPin(int pinId, int status)
+        public void SwitchPin(int pinId, int status, int timeout = 0)
         {
             Console.WriteLine("About to change pin status.");
             var pin = gpioController.OpenPin(pinId);
 
             pin.SetDriveMode(GpioPinDriveMode.Output);
 
+            //This is turn off
             if (status == 1)
             {
-                Console.WriteLine("Going on");
+                Console.WriteLine("Going off");
                 pin.Write(GpioPinValue.High);
             }
             else
             {
-                Console.WriteLine("Going off");
+                //Turn On
+                if (timeout==0)
+                    timeout = 5000;
+                Console.WriteLine($"Going on: Timeout of {timeout}");
                 pin.Write(GpioPinValue.Low);
+                Task.Delay(timeout).Wait();
+                Console.WriteLine($"Going off by timeout");
+                pin.Write(GpioPinValue.High);
             }
         }
     }
