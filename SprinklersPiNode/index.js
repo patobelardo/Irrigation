@@ -56,15 +56,14 @@ function checkForMessages(sbService, queueName, callback) {
         path: '/api/pins?pinId=' + bodyArr[1] + '&status=' + action + '&timeout=' + timeout,
         method: 'POST'
       };
-      console.log(options);
-      // http.request(options, function(res) {
-      //   console.log('STATUS: ' + res.statusCode);
-      //   console.log('HEADERS: ' + JSON.stringify(res.headers));
-      //   res.setEncoding('utf8');
-      //   res.on('data', function (chunk) {
-      //     console.log('BODY: ' + chunk);
-      //   });
-      // }).end();
+      http.request(options, function(res) {
+        console.log('STATUS: ' + res.statusCode);
+        console.log('HEADERS: ' + JSON.stringify(res.headers));
+        res.setEncoding('utf8');
+        res.on('data', function (chunk) {
+          console.log('BODY: ' + chunk);
+        });
+      }).end();
     //   sbService.deleteMessage(lockedMsg, function(err2) {
     //     if (err2) {
     //       console.log('Failed to delete message: ', err2);
